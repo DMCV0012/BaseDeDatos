@@ -617,7 +617,8 @@ INSERT INTO buys.buys_supplier (supplier_name, company_name, email, number_phone
 ('Verónica Cordero', 'Cameras Pro S.A.', 'v.cordero@cameraspro.com', '+51 987654349'),
 ('Roberto Salgado', 'Toys & Fun S.A.', 'r.salgado@toysandfun.com', '+51 987654350');
 
--- en la esquema PROMOTION se generaron 50 datos pero no todos tienen promocion
+-- en la esquema PROMOTION se usaron 29 datos para asignarles una promocion
+-- no todas tienen una promocion
 INSERT INTO promotion.promotion (id_item, date_promotion, amount_promotion, discount) VALUES
 -- Alimentos con promoción (5)
 (1, '2024-06-01', 100, 10),   -- Arroz blanco 10% descuento
